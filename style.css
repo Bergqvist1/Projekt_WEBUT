@@ -42,3 +42,9 @@ nav>ul{
 header a{
     text-decoration: none;
 }
+
+#startsida img{
+    margin-left: 70%;
+    margin-top: 10%;
+    width: 650px;
+}
