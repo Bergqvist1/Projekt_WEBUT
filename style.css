@@ -38,3 +38,7 @@ nav>ul{
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     margin: 2;
 }
+
+a{
+    text-decoration: none;
+}
