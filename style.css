@@ -27,3 +27,14 @@ nav li{
     text-align:center;
     font-size: 1.5em;
 }
+
+nav a{
+    text-decoration:none;
+    width: 10%;
+}
+
+nav>ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin: 2;
+}
