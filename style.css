@@ -21,3 +21,9 @@ nav{
     grid-area: nav;
     padding-top: 16px;
 }
+
+nav li{
+    list-style-type: none;
+    text-align:center;
+    font-size: 1.5em;
+}
