@@ -65,7 +65,11 @@ h2{
 }
 
 #jorden img{
-    width: 700px;
-    margin-top: 15%;
-    margin-left: 32%;
+    width:800px;
+    margin: top 150px;px;
+}
+
+#jorden div{
+    text-align: center;
+    
 }
