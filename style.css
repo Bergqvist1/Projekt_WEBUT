@@ -1,7 +1,7 @@
 body{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 20px 50px auto 50px;
+    grid-template-rows: 50px 50px auto 50px;
     grid-template-areas:
     "header header header"
     "nav nav nav"
@@ -22,9 +22,7 @@ header{
 }
 
 nav{
-    margin-top: 30px;
     grid-area: nav;
-    padding-top: 16px;
 }
 
 nav li{
@@ -37,23 +35,31 @@ nav li{
 nav a{
     text-decoration:none;
     width: 10%;
-
 }
 
 nav>ul{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    margin: 2;
 }
 
 header a{
     text-decoration: none;
 }
 
-#startsida img{
-    margin-left: 45%;
-    margin-top: 10%;
-    width: 800px;
+body{
+    background-image: url('space.jpg');
+}
+
+body a{
+    color: red;
+}
+
+#startsida main div{
+    text-align: center;
+}
+
+#startsida main div img{
+    width: 50%;
 }
 
 h1{
