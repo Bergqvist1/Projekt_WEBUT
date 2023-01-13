@@ -76,7 +76,43 @@ h2{
 
 #neptunus img{
     margin-top: 10%;
-    margin-left: 35%;
+    margin-left: 85%;
+    width: 40%;
+}
+
+#neptunus div{
+    width:  50%;
+    height: 50px;
+}
+
+#neptunus main{
+    color:red;
+    margin-top: 2em;
+    text-align: left;
+}
+
+#neptunus h2{
+    color:blue;
+}
+
+#saturnus div{
+    width: 50%;
+    height: 50px;
+}
+
+#saturnus img{
+    width: 70%;
+    margin-top: 10%;
+    margin-left: 65%;
+}
+
+#saturnus main{
+    color:red;
+    margin-top: 32px;
+}
+
+#saturnus h2{
+    color:blue;
 }
 
 #jorden img{
