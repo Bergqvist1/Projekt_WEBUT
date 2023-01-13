@@ -30,7 +30,7 @@ nav li{
     text-align:center;
     font-size: 1.5em;
     border-style: solid;
-    border-color: red;
+    border-color: yellow;
 }
 
 nav a{
@@ -52,7 +52,7 @@ body{
 }
 
 body a{
-    color: yellow;
+    color: white;
 }
 
 #startsida div{
@@ -73,7 +73,7 @@ h1{
 
 h2{
     text-align: center;
-    color: yellow;
+    color: white;
     margin: auto 0;
 }
 
