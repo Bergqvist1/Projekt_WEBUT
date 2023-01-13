@@ -1,7 +1,7 @@
 body{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 50px 50px auto 50px;
+    grid-template-rows: 60px 50px auto 50px;
     grid-template-areas:
     "header header header"
     "nav nav nav"
@@ -68,15 +68,54 @@ body a{
 
 h1{
     text-align:center;
+    margin: auto 0;
 }
 
 h2{
-    margin-top: 80px;
+    text-align: center;
+    color: yellow;
+    margin: auto 0;
 }
 
 #neptunus img{
     margin-top: 10%;
-    margin-left: 35%;
+    margin-left: 85%;
+    width: 40%;
+}
+
+#neptunus div{
+    width:  50%;
+    height: 50px;
+}
+
+#neptunus main{
+    color:red;
+    margin-top: 2em;
+    text-align: left;
+}
+
+#neptunus h2{
+    color:blue;
+}
+
+#saturnus div{
+    width: 50%;
+    height: 50px;
+}
+
+#saturnus img{
+    width: 70%;
+    margin-top: 10%;
+    margin-left: 65%;
+}
+
+#saturnus main{
+    color:red;
+    margin-top: 32px;
+}
+
+#saturnus h2{
+    color:blue;
 }
 
 #jorden img{
