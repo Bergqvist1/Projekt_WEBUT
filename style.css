@@ -158,3 +158,20 @@ h2{
 #merkurius div{
     text-align: center;
 }
+
+#uranus div{
+    text-align: center;
+}
+
+#uranus img{
+    width: 500px;
+    margin-top: 40px;
+}
+
+#venus div{
+    text-align: center;
+}
+
+#venus img{
+    width: 750px;
+}
