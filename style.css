@@ -1,7 +1,7 @@
 body{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 50px 50px auto 50px;
+    grid-template-rows: 60px 50px auto 50px;
     grid-template-areas:
     "header header header"
     "nav nav nav"
@@ -68,10 +68,13 @@ body a{
 
 h1{
     text-align:center;
+    margin: auto 0;
 }
 
 h2{
-    margin-top: 80px;
+    text-align: center;
+    color: yellow;
+    margin: auto 0;
 }
 
 #neptunus img{
