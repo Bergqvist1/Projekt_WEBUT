@@ -170,8 +170,17 @@ h2{
 
 #venus div{
     text-align: center;
+    position: relative;
 }
 
 #venus img{
     width: 750px;
+}
+
+main p{
+    text-align: left;
+    color: white;
+    margin-left: 50px;
+    font-size: 1.1em;
+    position: relative;
 }
