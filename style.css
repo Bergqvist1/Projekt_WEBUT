@@ -94,10 +94,6 @@ h2{
     text-align: left;
 }
 
-#neptunus h2{
-    color:blue;
-}
-
 #saturnus div{
     width: 50%;
     height: 50px;
@@ -112,10 +108,6 @@ h2{
 #saturnus main{
     color:red;
     margin-top: 32px;
-}
-
-#saturnus h2{
-    color:blue;
 }
 
 #jorden img{
