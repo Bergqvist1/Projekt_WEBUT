@@ -105,7 +105,7 @@ h2{
 
 #saturnus img{
     width: 70%;
-    margin-top: 10%;
+    margin-top: 2%;
     margin-left: 65%;
 }
 
@@ -115,6 +115,26 @@ h2{
 }
 
 #saturnus h2{
+    color:blue;
+}
+
+#mars div{
+    width: 50%;
+    height: 50px;
+}
+
+#mars img{
+    width: 40%;
+    margin-top: 10%;
+    margin-left: 80%;
+}
+
+#mars main{
+    color:red;
+    margin-top: 32px;
+}
+
+#mars h2{
     color:blue;
 }
 
