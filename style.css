@@ -13,6 +13,8 @@ body{
 main{
     grid-area: main;
     font-family:  "Lucida Console", Courier, monospace;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 footer{
@@ -176,9 +178,8 @@ h2{
     margin-top: 40px;
 }
 
-#venus div{
+#venus main div{
     text-align: center;
-    position: relative;
 }
 
 #venus img{
@@ -189,9 +190,8 @@ main p{
     text-align: left;
     color: white;
     margin-left: 50px;
+    margin-top: 100px;
     font-size: 1.1em;
-    position: relative;
-    
 }
 
 
