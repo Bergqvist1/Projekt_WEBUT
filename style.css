@@ -113,9 +113,8 @@ h2{
 
 
 #neptunus main{
-    color:red;
-    margin-top: 2em;
-    text-align: left;
+    color:white;
+    margin-top: 32px;
     margin-left: 50px;
 }
 
@@ -155,7 +154,7 @@ h2{
 
 #mars main{
     color:red;
-    margin-top: 32px;
+    margin-top: 2em;
     margin-left: 50px;
 }
 
@@ -219,7 +218,7 @@ h2{
 }
 
 #venus main{
-    margin-top:
+    margin-top: 32px;
 }
 
 
@@ -232,4 +231,4 @@ main p{
 }
 
 
-/* GLÖM INTE VALIDERA KOD I CSS OCH KOD I ALLA PLANETER HTML INNAN FREDAG */
+/* GLÖM INTE VALIDERA KOD I CSS OCH KOD I ALLA PLANETER HTML INNAN FREDAG, GLÖM INTE KOMMENTARER PÅ KOD!!! */
