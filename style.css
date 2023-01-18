@@ -185,13 +185,16 @@ h2{
     width: 750px;
 }
 
+#venus main{
+    margin-top: 32px;
+    margin-left: 50px;
+}
+
 main p{
     text-align: left;
     color: white;
     margin-left: 50px;
     font-size: 1.1em;
-    position: relative;
-    
 }
 
 
