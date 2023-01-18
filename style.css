@@ -1,4 +1,5 @@
 body{
+    
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 60px 50px auto 50px;
@@ -11,6 +12,7 @@ body{
 
 main{
     grid-area: main;
+    font-family:  "Lucida Console", Courier, monospace;
 }
 
 footer{
@@ -96,6 +98,7 @@ h2{
     color:red;
     margin-top: 2em;
     text-align: left;
+    margin-left: 50px;
 }
 
 #saturnus div{
@@ -112,7 +115,11 @@ h2{
 #saturnus main{
     color:red;
     margin-top: 32px;
+    margin-left: 50px;
 }
+    
+
+
 
 #mars div{
     width: 50%;
@@ -128,6 +135,7 @@ h2{
 #mars main{
     color:red;
     margin-top: 32px;
+    margin-left: 50px;
 }
 
 #jorden img{
@@ -183,4 +191,10 @@ main p{
     margin-left: 50px;
     font-size: 1.1em;
     position: relative;
+    
 }
+
+
+
+
+/* GLÖM INTE VALIDERA KOD I CSS OCH KOD I ALLA PLANETER HTML INNAN FREDAG */ 
