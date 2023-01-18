@@ -140,11 +140,6 @@ h2{
 }
    
 
-
-
-
-
-
 #mars div{
     width: 50%;
     height: 50px;
@@ -214,21 +209,19 @@ h2{
 
 #venus div{
     text-align: center;
-    position: relative;
+    width: 50%;
+    height: 50px;
+    /*fixa bild*/
 }
-
 
 #venus img{
     width: 750px;
 }
 
-
-
-
 #venus main{
-    margin-top: 32px;
-    margin-left: 50px;
+    margin-top:
 }
+
 
 
 main p{
