@@ -141,21 +141,20 @@ h2{
 
 #mars div{
     width: 50%;
-    height: 50px;
+    height: 50px;      /* Gör att div området i gridden inte blir för stor och tar upp hela main sidan */
 }
 
 
 #mars img{
     width: 40%;
     margin-top: 10%;
-    margin-left: 80%;
+    margin-left: 80%;        /* Gör att mars bilden är 60% mindre alltså från 1 till 0.4. margin-top och margin-left gör att den sitter på rätt plats */
 }
 
 
 #mars main{
-    color:red;
     margin-top: 2em;
-    margin-left: 50px;
+    margin-left: 50px;           /* Gör att texten som ligger i <main> attributen ligger där den ska på rätt höjd med margin-top och rätt längd ifrån sidan med margin-left  */
 }
 
 
