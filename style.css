@@ -1,4 +1,4 @@
-body{
+body{       /* gör att vi har en gridd som sträcker sig över hela sidan, samt vilka grid områden vi har och dess storlek i rader och kolumner */
    
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -11,28 +11,28 @@ body{
 }
 
 
-main{
+main{         /* gör att mainen blir en dela av gridden samt att all text som ligger i <main> har samma typsnitt */
     grid-area: main;
     font-family:  "Lucida Console", Courier, monospace;
 }
 
 
-footer{
+footer{               /* gär att footern blir en del av gridden */ 
     grid-area: footer;
 }
 
 
-header{
+header{  /* gör att headern blir en del av gridden  */
     grid-area: header;
 }
 
 
-nav{
+nav{ /* gör att naven blir en del av gridden  */ 
     grid-area: nav;
 }
 
 
-nav li{
+nav li{            /* Gör att kanten runt globala menyn är gul och att själva kanten är fast, texten är rätt sotrlek och den är centrerad  */
     list-style-type: none;
     text-align:center;
     font-size: 1.5em;
@@ -41,39 +41,39 @@ nav li{
 }
 
 
-nav a{
+nav a{                               /* Gör att länken i den globala menyn inte har någon _ (understreck) och har rätt storlek  */
     text-decoration:none;
     width: 10%;
 }
 
 
-nav a:hover{
+nav a:hover{                /* Gör att när man har muspekaren över en av planeterna i den globala menyn ändras färgen till blå  */ 
     color: blue;
 }
 
 
-nav>ul{
+nav>ul{                               /* Gör att våran globala meny är uppdelade i 8 bitar somn motsvarar varsinn planet  */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 
-header a{
+header a{   /* gör att header länken inte har något understreck _  */ 
     text-decoration: none;
 }
 
 
-body{
+body{   /* gör att alla sidor får samma bakgrund som vi ska använda oss av  */
     background-image: url('space.jpg');
 }
 
 
-body a{
+body a{   /* gör att färgen i body länkarna är färgen vit  */
     color: white;
 }
 
 
-#startsida div{
+#startsida div{                    /* Gör så att bilden och div området ligger på rätt plats med margin */ 
     margin: auto;
     margin-left: auto;
     margin-right: auto;
@@ -81,59 +81,57 @@ body a{
 }
 
 
-#startsida main div img{
+#startsida main div img{                    /* Gör att bilden som ligger på startsidan är rätt storlek  */
     width: 50%;
 }
 
 
-h1{
+h1{                        /* h1 är "Rymden rubriken som är lika dan på alla sidor och gör också att när man trcker på rymden kommer man till startsidan  */
     text-align:center;
     margin: auto 0;
 }
 
 
-h2{
+h2{                         /* Planet rubriken på varje sida, färgen vit, centrerad och sitter där den ska med margin  */
     text-align: center;
     color: white;
     margin: auto 0;
 }
 
 
-#neptunus img{
+#neptunus img{                    /* Gör att Saturnus bilden är rätt storlek. margin-top och margin-left gör att den sitter på rätt plats */
     margin-top: 10%;
     margin-left: 85%;
     width: 40%;
 }
 
 
-#neptunus div{
+#neptunus div{                    /* Gör att div området i gridden inte blir för stor och tar upp hela main sidan */
     width:  50%;
     height: 50px;
 }
 
 
-#neptunus main{
-    color:white;
+#neptunus main{               /* Gör att texten som ligger i <main> attributen ligger där den ska på rätt höjd med margin-top och rätt längd ifrån sidan med margin-left  */
     margin-top: 32px;
     margin-left: 50px;
 }
 
 
-#saturnus div{
+#saturnus div{                        /* Gör att div området i gridden inte blir för stor och tar upp hela main sidan */
     width: 50%;
     height: 50px;
 }
 
 
-#saturnus img{
+#saturnus img{                   /* Gör att Saturnus bilden är rätt storlek. margin-top och margin-left gör att den sitter på rätt plats */
     width: 70%;
     margin-top: 2%;
     margin-left: 65%;
 }
 
 
-#saturnus main{
-    color:red;
+#saturnus main{                      /* Gör att texten som ligger i <main> attributen ligger där den ska på rätt höjd med margin-top och rätt längd ifrån sidan med margin-left  */
     margin-top: 32px;
     margin-left: 50px;
 }
@@ -158,83 +156,83 @@ h2{
 }
 
 
-#jorden img{
+#jorden img{                 /* Gör att Jorden bilden är rätt storlek och margin-top gör att den sitter på rätt plats */
     width:800px;
     margin-top: 150px;
 }
 
 
-#jorden div{
+#jorden div{            /* Gör att div området i gridden inte blir för stor och att texten är centrerad  */
     text-align: center;
    
 }
 
 
-#jupiter div{
+#jupiter div{ /* Gör att div området i gridden inte blir för stor och att texten är centrerad*/
     text-align: center;
 
 
 }
 
 
-#jupiter img{
+#jupiter img{             /* Gör att Jupiter bilden är rätt storlek och margin-top gör att den sitter på rätt plats */
     width: 500px;
     margin-top: 6%;
 }
 
 
-#merkurius img{
+#merkurius img{                   /* Gör att Merkurius bilden är rätt storlek och margin-top gör att den sitter på rätt plats */
     width: 435px;
     margin-top: 8%;
 }
 
 
-#merkurius div{
+#merkurius div{   /* Gör att div området i gridden inte blir för stor och är text centrerad  */
     text-align: center;
 }
 
 
-#uranus div{
+#uranus div{           /* Gör att div området i gridden inte blir för stor och är text centrerad  */
     text-align: center;
 }
 
 
-#uranus img{
+#uranus img{           /* Gör att Uranus bilden är rätt storlek och margin-top gör att den sitter på rätt plats */
     width: 500px;
     margin-top: 40px;
 }
 
 
-#venus div{
+#venus div{        /* Gör att div området i gridden inte blir för stor och tar upp hela main sidan samt att texten är centrerad */
     text-align: center;
     width: 50%;
     height: 50px;
-    /*fixa bild*/
+   
 }
 
-#venus img{
+#venus img{      /* Gör att Uranus bilden är rätt storlek och margin-top gör att den sitter på rätt plats */
     width: 750px;
 }
 
-#venus main{
+#venus main{        /* Gör att texten som ligger i <main> attributen ligger där den ska på rätt höjd med margin-top  */
     margin-top: 32px;
 }
 
 
 
-main p{
+main p{ /* gör att texten remsornai p taggen är vänster skysterad, färgen vit, rätt storlek och sitter på rätt plats */
     text-align: left;
     color: white;
     margin-left: 50px;
     font-size: 1.1em;
 }
 
-#jorden main{
+#jorden main{     /* Gör att texten som ligger i <main> attributen ligger där den ska på rätt höjd med margin-top och rätt på sidled*/
     margin-top: 85px;
     margin-left: 50px;
 }
 
-#merkurius main{
+#merkurius main{ /* Gör att texten som ligger i <main> attributen ligger där den ska på rätt höjd med margin-top och rätt på sidled*/
     margin-top: 85px;
     margin-left: 50px;
 }
