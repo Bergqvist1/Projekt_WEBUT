@@ -229,5 +229,11 @@ main p{
     font-size: 1.1em;
 }
 
+#jorden main{
+    margin-top: 85px;
+    margin-left: 50px;
+}
+    
+
 
 /* GLÖM INTE VALIDERA KOD I CSS OCH KOD I ALLA PLANETER HTML INNAN FREDAG, GLÖM INTE KOMMENTARER PÅ KOD!!! */
