@@ -194,6 +194,11 @@ h2{                         /* Planet rubriken på varje sida, färgen vit, cent
 
 #uranus div{           /* Gör att div området i gridden inte blir för stor och är text centrerad  */
     text-align: center;
+    width: 50%;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 20px;
+
 }
 
 
@@ -202,6 +207,9 @@ h2{                         /* Planet rubriken på varje sida, färgen vit, cent
     margin-top: 40px;
 }
 
+#uranus section{
+    margin-top: 100px;
+}
 
 #venus div{        /* Gör att div området i gridden inte blir för stor och tar upp hela main sidan samt att texten är centrerad */
     text-align: center;
